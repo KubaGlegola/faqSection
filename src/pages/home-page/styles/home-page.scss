@@ -1,0 +1,28 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+///
+///
+@import "./components/item.scss";
+
+.home-page {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 375px;
+  padding: 48px 12px 48px 16px;
+
+  & &__header {
+    margin: 0 auto 32px;
+    max-width: 257px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  & &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
